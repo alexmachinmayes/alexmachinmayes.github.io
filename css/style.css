@@ -1,9 +1,9 @@
 
 @font-face {
     font-family:Copperplate Gothic Light;
-    src: url(../coprgtl.ttf) format('truetype');
+    src: url(../fonts/coprgtl.ttf) format('truetype');
     font-family:Copperplate Gothic Bold;
-    src: url(../coprgtb.ttf) format('truetype');
+    src: url(../fonts/coprgtb.ttf) format('truetype');
 }
 
 /***** LOGO START*****/
