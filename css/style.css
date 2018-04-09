@@ -1,15 +1,11 @@
 
-@font-face {
-    font-family:Copperplate Gothic Light;
-    src: url(../fonts/coprgtl.ttf) format('truetype');
-    font-family:Copperplate Gothic Bold;
-    src: url(../fonts/coprgtb.ttf) format('truetype');
-}
+
 
 /***** LOGO START*****/
 
 
 .logo{
+  font-family: Copperplate Gothic Light;
   font-size: 36px;
   position: absolute;
   bottom: -25px;
