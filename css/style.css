@@ -1,40 +1,109 @@
-
+/***** CUSTOM FONTS FROM COMPUTER START*****/
 @font-face {
     font-family:Copperplate Gothic Light;
-    src: url("../fonts/coprgtl.ttf") format('truetype');
+      src: url("../fonts/alex_fonts/coprgtl.ttf") format('truetype');
 }
+
+@font-face {
+    font-family:Copperplate Gothic Bold;
+      src: url("../fonts/alex_fonts/coprgtb.ttf") format('truetype');
+}
+
+@font-face {
+    font-family:Goudy Old Style;
+      src: url("../fonts/alex_fonts/goudos.ttf") format('truetype');
+}
+@font-face {
+    font-family:Goudy Old Style Bold;
+      src: url("../fonts/alex_fonts/goudosb.ttf") format('truetype');
+}
+
+@font-face {
+    font-family:Goudy Old Style Italic;
+      src: url("../fonts/alex_fonts/goudosi.ttf") format('truetype');
+}
+
+@font-face {
+    font-family:Candara;
+      src: url("../fonts/alex_fonts/candara.ttf") format('opentype');
+}
+
+@font-face {
+    font-family:Candara Bold;
+      src: url("../fonts/alex_fonts/candarab.ttf") format('opentype');
+}
+
+@font-face {
+    font-family:Candara Italic;
+      src: url("../fonts/alex_fonts/candarai.ttf") format('opentype');
+}
+
+@font-face {
+    font-family:Candara Bold Italic;
+      src: url("../fonts/alex_fonts/candaraz.ttf") format('opentype');
+}
+
+
+@font-face {
+    font-family:Perpetua;
+      src: url("../fonts/alex_fonts/per.ttf") format('truetype');
+}
+
+@font-face {
+    font-family:Perpetua Bold;
+      src: url("../fonts/alex_fonts/perb.ttf") format('truetype');
+}
+
+
+/***** CUSTOM FONTS FROM COMPUTER END*****/
+
+
+
+
+
+
 
 /***** LOGO START*****/
 
+.jumbotron {
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  background-image: url("../assets/images/dem4.png");
+  background-position: center center;
+  background-size: cover;
+  height: 150px;
+  padding: 1%;
+  z-index: 20;
+}
+
 
 .logo{
-  font-family: Copperplate Gothic Light;
-  font-size: 36px;
   position: absolute;
   bottom: -25px;
   left: 30px;
   width: 75px;
-
 }
+
 
 .brandtext h1{
   color: #f9f8e8;
   font-size: 36px;
-  font-family: Copperplate Gothic Light;
+  font-family: "Copperplate Gothic Bold", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
   bottom: 20px;
   left: 95px;
-  
 }
+
 
 .brandtext p{
   color: #f9f8e8;
   font-size: 20px;
-  font-family: Copperplate Gothic Light;
+  font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
   bottom: -7px;
   left: 110px;
-  
 }
 
 /***** LOGO END*****/
@@ -45,161 +114,8 @@
 
 
 
-/*** PORTFOLIO OLD START ***/
-.portfolio-thumbnail {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  background-color: #fff;
-  border-color: #c1be97;
-  background-color: #f9f8e8; 
-  border-width: 1px;
-  width: 100%;
-  box-shadow: 5px 5px 5px #cccccc;
-}
 
-h4 {
-
-  color: #6699cc;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  letter-spacing: .5px;
-  text-align: center;
-  font-family: Tahoma, Geneva, sans-serif;
-  text-shadow: 1.5px 1.5px 1px #cccccc;
-}
-
-
-.portfolio-thumbnail:hover {
-  border-width: 3px;
-  border-color: #74b4e2;
-}
-
-.portfolio-title {
-  font-weight: normal;
-  border-color: #ebd122;
-}
-
-.portfolio-description {
-}
-
-.portfolio-image {
-  border-color: #3d4596;
-}
-
-#about-world {
-  max-height: 200px;
-}
-
-.resume h3 {
-  font-weight: bold;
-}
-
-hr {
-  border-color: white;
-  border-width: 2px;
-}
-
-p {
-  font-size: 20px;
-
-}
-
-a {
-  color: #fff;
-
-   
-}
-
-a:hover {
-  color: #74b4e2;
-}
-
-.jumbotron {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-  background-image: url("../assets/images/dem4.png");
-  
-  background-position: center center;
-  background-size: cover;
-  height: 150px;
-  font-weight: normal;
-  color: #fff;
-  padding: 1%;
-  z-index: 20;
-}
-
-.jumbotron h3 {
-  text-align: left; 
-  font-size: 36px;
-  font-weight: regular;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-
-.footer {
-  background-image: url("../assets/images/dem5.png");
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  background-position: center center;
-  background-size: cover;
-  height:50px;
-  padding: 7px;
-}
-
-.footer p {
-  color: #fff;
-  font-size: 14px;
-  text-align: right;
-  position: relative;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-weight: normal;
-}
-
-
-.footer i{
- font-size: 16px;
- width: 18px;
- height: 12px;
-}
-.footer i:hover{
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
-  width: 36px;
-  height: 36px;
-  border: 1px solid #c1be97;
-  background-color: #f9f8e8;
-  color: #6699cc;
-}
-
-body {
-  padding-top: 250px;
-  margin-bottom: 120px;
-  font-family: Tahoma, Geneva, sans-serif;;
-  font-weight: normal;
-  background-color: #fff;
-  z-index: 1;
- 
-}
-
-/*** PORTFOLIO OLD END ***/
-
-
-
-
-
-/*** NEW NAVIGATION BAR START ***/
-
-
-
+/*** NAVIGATION BAR START ***/
 
 .header {
   background-color: #fff;
@@ -214,13 +130,14 @@ body {
   font-weight: normal;
   color: #fff;
   padding: 1%;
-
 }
 
+
 .header a {
-  background-color: #fff;
+  font-family: Candara Bold, Tahoma, Geneva, sans-serif;
+  background-color: none;
   float: left;
-  color: #6699cc;
+  color: #74b4e2;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -229,12 +146,9 @@ body {
   border-radius: 4px;
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
 
 .header a:hover {
+  font-size: 18px;
   border: 1px solid #c1be97;
   background-color: #f9f8e8;
   color: #6699cc;
@@ -245,35 +159,225 @@ body {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
 
-  .header a {
-    float: center;
-    display: block;
-    text-align: left;
-    z-index: 10;
-  }
-  .header-right {
-    float: center;
-  }
+/*** NAVIGATION BAR END ***/
+
+
+
+
+
+
+
+
+
+/*** PORTFOLIO MAIN PAGE START ***/
+
+
+/* Portfolio Square Locations */
+.portfolio-thumbnail {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-color: #c1be97;
+  background-color: #f9f8e8; 
+  border-width: 1px;
+  width: 100%;
+  box-shadow: 5px 5px 5px #cccccc;
 }
 
+
+/* Portfolio Square Headings */
+.portfolio-thumbnail h4 { 
+  color: #6699cc;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: .5px;
+  text-align: center;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  text-shadow: 1.5px 1.5px 1px #cccccc;
+}
+
+/* Portfolio Image Within Square */
 .portimage {
-  border: 1px solid #3d4596;
+  border: 1px solid #c1be97;
   padding-top: 4px;
   padding-left: 4px;
   padding-right: 4px;
   padding-bottom: 4px;
   background-color: #fff;
-  border-color: #c1be97;
   border-radius: 4px;
   width: 100%;
+}
+
+/* Portfolio Image Within Square - Hover */
+.portfolio-thumbnail:hover {
+  border-width: 3px;
+  border-color: #74b4e2;
+}
+
+
+/*** PORTFOLIO MAIN PAGE END ***/
+
+
+
+
+
+
+
+
+
+/*** GENERAL START ***/
+
+
+/* Main Body (home page AND all other pages) */
+body {
+  padding-top: 250px;
+  margin-bottom: 120px;
+  font-family: Tahoma, Geneva, sans-serif;;
+  font-weight: normal;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+h1 {
+  font-weight: bold;
+}
+
+
+h2 {
+  font-weight: bold;
+}
+
+
+h3 {
+  font-weight: normal;
+}
+
+
+h4{
+  color: #6699cc;
+}
+
+
+h5{
+  color: #6699cc;
+}
+
+
+h6{
+  color: #6699cc;
+}
+
+
+p {
+  font-size: 20px;
+}
+
+
+a {
+  color: #fff;   
+}
+
+
+a:hover {
+  color: #74b4e2;
+}
+
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+
+/*** GENERAL END ***/
+
+
+
+
+
+
+
+
+
+
+
+/*** FOOTER START ***/
+
+.footer {
+  background-image: url("../assets/images/dem5.png");
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center center;
+  background-size: cover;
+  height:50px;
+  padding: 7px;
+}
+
+
+.footer p {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+  padding: 10px;
+  bottom: 10px;
+}
+
+
+.footer i{
+ position: relative;
+ text-align: right;
+ font-size: 16px;
+ width: 16px;
+ height: 20px;
+ padding: 10px;
+}
+
+
+.footer i:hover{
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #c1be97;
+  background-color: #f9f8e8;
+  color: #6699cc;
+}
+
+.copyright-fluid {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  position: relative;
+  bottom: -10px;
+  
+
+ 
 
 }
-/*** NEW NAVIGATION BAR END ***/
+/*** FOOTER END ***/
 
 
-/*** OTHER PAGES START ***/
+
+
+
+
+
+
+
+
+/*** OTHER MISC START ***/
 
 .contactinfo{
   padding-left: 50px; 
@@ -287,10 +391,17 @@ a.notwhitetext:link {
   color:#ff0000;
 }
 
+
 a.notwhitetext:visited {
   color:#0000ff;
 }
 
+
 a.notwhitetext:hover {
   color:#ffcc00;
 }
+
+
+/*** OTHER MISC END ***/
+
+
