@@ -81,19 +81,19 @@
 
 .logo{
   position: absolute;
-  bottom: -25px;
+  bottom: -20px;
   left: 30px;
-  width: 75px;
+  width: 60px;
 }
 
 
 .brandtext h1{
   color: #f9f8e8;
   font-size: 36px;
-  font-family: "Copperplate Gothic Bold", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
-  bottom: 20px;
-  left: 95px;
+  bottom: 13px;
+  left: 80px;
 }
 
 
@@ -102,8 +102,8 @@
   font-size: 20px;
   font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
-  bottom: -7px;
-  left: 110px;
+  bottom: -13px;
+  left: 95px;
 }
 
 /***** LOGO END*****/
@@ -143,15 +143,15 @@
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  border-radius: 4px;
 }
 
 
 .header a:hover {
+  color: #6699cc;
   font-size: 18px;
   border: 1px solid #c1be97;
   background-color: #f9f8e8;
-  color: #6699cc;
+  border-radius: 4px;
 }
 
 
@@ -190,15 +190,17 @@
 
 /* Portfolio Square Headings */
 .portfolio-thumbnail h4 { 
-  color: #6699cc;
-  font-size: 22px;
+  color: #76afdf;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: .5px;
   text-align: center;
   font-family: Candara, Tahoma, Geneva, sans-serif;
-  text-shadow: 1.5px 1.5px 1px #cccccc;
+  font-weight: normal;
 }
+
+
 
 /* Portfolio Image Within Square */
 .portimage {
@@ -236,7 +238,7 @@
 body {
   padding-top: 250px;
   margin-bottom: 120px;
-  font-family: Tahoma, Geneva, sans-serif;;
+  font-family: Candara, Tahoma, Geneva, sans-serif;;
   font-weight: normal;
   background-color: #fff;
   z-index: 1;
@@ -285,6 +287,7 @@ a {
 
 a:hover {
   color: #74b4e2;
+  text-decoration: none;
 }
 
 
@@ -335,17 +338,17 @@ hr {
 
 .footer i{
  position: relative;
- text-align: right;
+ text-align: center;
  font-size: 16px;
- width: 16px;
+ width: 20px;
  height: 20px;
- padding: 10px;
+ padding: 8px;
 }
 
 
 .footer i:hover{
   text-align: center;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   width: 36px;
   height: 36px;
@@ -360,7 +363,7 @@ hr {
   font-size: 12px;
   font-family: Candara, Tahoma, Geneva, sans-serif;
   position: relative;
-  bottom: -10px;
+  bottom: -12px;
   
 
  
