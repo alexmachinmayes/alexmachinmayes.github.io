@@ -89,12 +89,16 @@
 
 .brandtext h1{
   color: #f9f8e8;
+  font-style: normal;
   font-size: 36px;
   font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
   bottom: 13px;
   left: 80px;
+  background-color: transparent;
+  text-decoration: none;
 }
+
 
 
 .brandtext p{
@@ -104,6 +108,8 @@
   position: absolute;
   bottom: -13px;
   left: 95px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 /***** LOGO END*****/
@@ -157,6 +163,7 @@
 
 .header-right {
   float: right;
+  margin-right: 80px;
 }
 
 
@@ -237,26 +244,31 @@
 /* Main Body (home page AND all other pages) */
 body {
   padding-top: 250px;
-  margin-bottom: 120px;
-  font-family: Candara, Tahoma, Geneva, sans-serif;;
-  font-weight: normal;
-  background-color: #fff;
-  z-index: 1;
+  margin-bottom: 120px; 
 }
 
 
 h1 {
-  font-weight: bold;
+  font-size: 42px;
+  color: #333333;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #fff;
 }
 
 
 h2 {
+  font-size: 36px;
+  color: #333333;
   font-weight: bold;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #fff;
 }
 
 
 h3 {
-  font-weight: normal;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  background-color: #fff;
 }
 
 
@@ -279,6 +291,10 @@ p {
   font-size: 20px;
 }
 
+li {
+  font-size: 16px;
+}
+
 
 a {
   color: #fff;   
@@ -292,14 +308,12 @@ a:hover {
 
 
 hr {
-  border-color: white;
+  border-color: black;
   border-width: 2px;
 }
 
 
 /*** GENERAL END ***/
-
-
 
 
 
@@ -364,9 +378,6 @@ hr {
   font-family: Candara, Tahoma, Geneva, sans-serif;
   position: relative;
   bottom: -12px;
-  
-
- 
 
 }
 /*** FOOTER END ***/
@@ -380,7 +391,65 @@ hr {
 
 
 
-/*** OTHER MISC START ***/
+/***** RESUME ALL START *****/
+
+
+    /*** COLUMNS START ***/
+
+.column {
+    float: left;
+    padding: 0px;
+    height: 75px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+
+    /*** Clear floats after the columns ***/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /*** COLUMNS END ***/
+
+
+
+
+
+/*** RES BODY - ACTING STRANGELY ***/
+.res-body{
+    background-color: #fff;
+    float: center;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+
+.h_line { 
+  color: black;
+  height:1px;
+  background: #fff
+}
+
+/***** RESUME ALL END *****/
+
+
+
+
+
+
+
+/*** MISC START ***/
 
 .contactinfo{
   padding-left: 50px; 
@@ -405,6 +474,4 @@ a.notwhitetext:hover {
 }
 
 
-/*** OTHER MISC END ***/
-
-
+/*** MISC END ***/
