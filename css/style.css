@@ -19,7 +19,7 @@
 
 .brandtext h1{
   color: #f9f8e8;
-  font-size: 42px;
+  font-size: 36px;
   font-family: Copperplate Gothic Light;
   position: absolute;
   bottom: 20px;
@@ -123,7 +123,7 @@ a:hover {
     left: 0px;
     right: 0px;
   background-image: url("../assets/images/dem4.png");
-  border-bottom: 1px solid #84816a;
+  
   background-position: center center;
   background-size: cover;
   height: 150px;
@@ -147,7 +147,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  border-top: 1px solid #84816a;
+  
   background-position: center center;
   background-size: cover;
   height:50px;
