@@ -123,7 +123,7 @@ a:hover {
     top: 0px;
     left: 0px;
     right: 0px;
-  background-image: url("../assets/images/dem4red.jpg");
+  background-image: url("../assets/images/dem4red.png");
   border-bottom: 1px solid #84816a;
   background-position: center center;
   background-size: cover;
@@ -143,7 +143,7 @@ a:hover {
 
 
 .footer {
-  background-image: url("../assets/images/dem5red.jpg");
+  background-image: url("../assets/images/dem5red.png");
   position: fixed;
   bottom: 0;
   left: 0;
