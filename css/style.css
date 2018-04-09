@@ -1,12 +1,16 @@
 
-
+@font-face {
+    font-family:Copperplate Gothic Light;
+    src: url(../fonts/coprgtl.ttf);
+    font-family:Copperplate Gothic Bold;
+    src: url(../fonts/coprgtb.ttf);
+}
 
 /***** LOGO START*****/
 
 
 .logo{
   font-size: 36px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
   bottom: -25px;
   left: 30px;
@@ -17,21 +21,21 @@
 .brandtext h1{
   color: #f9f8e8;
   font-size: 42px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Copperplate Gothic Light;
   position: absolute;
   bottom: 20px;
   left: 95px;
-  text-shadow: 2px 2px 2px #3d3b32;
+  
 }
 
 .brandtext p{
   color: #f9f8e8;
   font-size: 20px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Copperplate Gothic Light;
   position: absolute;
   bottom: -7px;
   left: 110px;
-  text-shadow: 2px 2px 2px #3d3b32;
+  
 }
 
 /***** LOGO END*****/
@@ -119,7 +123,7 @@ a:hover {
     top: 0px;
     left: 0px;
     right: 0px;
-  background-image: url("../assets/images/dem4.png");
+  background-image: url("../assets/images/dem4red.jpg");
   border-bottom: 1px solid #84816a;
   background-position: center center;
   background-size: cover;
@@ -139,7 +143,7 @@ a:hover {
 
 
 .footer {
-  background-image: url("../assets/images/dem5.png");
+  background-image: url("../assets/images/dem5red.jpg");
   position: fixed;
   bottom: 0;
   left: 0;
