@@ -470,7 +470,7 @@ hr {
   padding-left: 50px; 
   font-size: 36px;
   font-weight: regular;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
 
@@ -494,12 +494,11 @@ a.notwhitetext:hover {
 }
 
 
-.welcome{
-    font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif; 
-  color: #cc6666;
-  font-size: 36px;
+.welcome h1{
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 32px;
   float: center;
-  margin-top: 4%;
+  
 }
 
 /*** MISC END ***/
