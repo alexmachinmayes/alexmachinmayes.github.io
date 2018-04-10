@@ -498,7 +498,7 @@ a.notwhitetext:hover {
     font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif; 
   color: #cc6666;
   font-size: 36px;
-  float: right;
+  float: center;
   margin-top: 4%;
 }
 
