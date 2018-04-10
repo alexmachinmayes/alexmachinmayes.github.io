@@ -88,7 +88,7 @@
 
 
 .brandtext h1{
-  color: #f9f8e8;
+  color: #fff;
   font-style: normal;
   font-size: 36px;
   font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -102,7 +102,7 @@
 
 
 .brandtext p{
-  color: #f9f8e8;
+  color: #74b4e2;
   font-size: 20px;
   font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
@@ -163,7 +163,7 @@
 
 .header-right {
   float: right;
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 
@@ -197,13 +197,13 @@
 
 /* Portfolio Square Headings */
 .portfolio-thumbnail h4 { 
-  color: #76afdf;
-  font-size: 24px;
+  color: #263ea7;
+  font-size: 28px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: .5px;
   text-align: center;
-  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: normal;
 }
 
@@ -224,7 +224,7 @@
 /* Portfolio Image Within Square - Hover */
 .portfolio-thumbnail:hover {
   border-width: 3px;
-  border-color: #74b4e2;
+  border-color: #263ea7;
 }
 
 
@@ -241,58 +241,68 @@
 /*** GENERAL START ***/
 
 
-/* Main Body (home page AND all other pages) */
+    /* Main Body (home page AND all other pages) */
 body {
   padding-top: 250px;
   margin-bottom: 120px; 
 }
 
-
+    /* page headers */
 h1 {
   font-size: 42px;
-  color: #333333;
+  color: #232791;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background-color: #fff;
 }
 
-
+    /* red-name title - resume */
 h2 {
-  font-size: 36px;
-  color: #333333;
-  font-weight: bold;
+  font-size: 42px;
+  color: #cc6666;
+  font-weight: normal;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background-color: #fff;
 }
 
-
+    /* red-headers - resume */
 h3 {
-  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-weight: bold;
+  font-size: 28px;
+  color: #cc6666;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
   background-color: #fff;
 }
 
-
+    /* dark brown headers - resume */
 h4{
-  color: #6699cc;
+  font-size: 20px;
+  color: #444336;
+  font-family: Candara Bold, Tahoma, Geneva, sans-serif;
 }
 
-
+    /* bold dark brown sub-headers - resume */
 h5{
-  color: #6699cc;
+  font-size: 18px;
+  color: #444336;
+  font-style: italic;
+  font-family: Candara Bold, Tahoma, Geneva, sans-serif;
 }
 
 
 h6{
-  color: #6699cc;
+  font-size: 18px;
+  color: #444336;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
 
 p {
   font-size: 20px;
+  color: #444336;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
+  color: #444336;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
 
@@ -308,8 +318,8 @@ a:hover {
 
 
 hr {
-  border-color: black;
-  border-width: 2px;
+  border-color: #263ea7;
+  border-width: 1px;
 }
 
 
@@ -460,7 +470,7 @@ hr {
 
 
 a.notwhitetext:link {
-  color:#ff0000;
+  color: #0000ff;
 }
 
 
@@ -470,7 +480,7 @@ a.notwhitetext:visited {
 
 
 a.notwhitetext:hover {
-  color:#ffcc00;
+  color:#cc6666;
 }
 
 
