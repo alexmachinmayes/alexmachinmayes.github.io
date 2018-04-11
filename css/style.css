@@ -70,31 +70,38 @@
     top: 0px;
     left: 0px;
     right: 0px;
-  background-image: url("../assets/images/dem4.png");
+  background-image: url("../assets/testing/dem_processing2red_footreverse.jpg");
   background-position: center center;
   background-size: cover;
   height: 150px;
   padding: 1%;
   z-index: 20;
+  box-shadow: 3px 3px 7px 0px #999999;
 }
 
 
 .logo{
   position: absolute;
-  bottom: -20px;
+  bottom: 20px;
   left: 30px;
-  width: 60px;
+  width: 80px;
+                /***** Makes .png render much crisper!  *****/
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+ 
 }
 
 
 .brandtext h1{
-  color: #fff;
+  color: #4b5059;
   font-style: normal;
-  font-size: 36px;
-  font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 46px;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
-  bottom: 13px;
-  left: 80px;
+  bottom: 50px;
+  left: 110px;
+   text-shadow: 1px 1px 1px black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -102,12 +109,13 @@
 
 
 .brandtext p{
-  color: #fff;
+  color: #333333;
   font-size: 20px;
-  font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Copperplate Gothic Bold", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position: absolute;
-  bottom: -13px;
-  left: 95px;
+  bottom: 20px;
+  left: 115px;
+  /*text-shadow: 1px 1px 1px black;*/
   background-color: transparent;
   text-decoration: none;
 }
@@ -124,17 +132,15 @@
 /*** NAVIGATION BAR START ***/
 
 .header {
-  background-color: #fff;
   padding: 20px 50px;
   position: absolute;
-  background-color: #fff;
   top: 150px;
   left: 0px;
   right: 30px;
   z-index: 10;
   height: 50px;
   font-weight: normal;
-  color: #fff;
+ 
   padding: 1%;
   z-index: 10;
 }
@@ -144,11 +150,11 @@
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
   background-color: none;
   float: left;
-  color: #74b4e2;
+  color: #4b5059;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 20px; 
   line-height: 25px;
 }
 
@@ -190,7 +196,7 @@
   padding-bottom: 10px;
   background-color: #fff;
   border-color: #c1be97;
-  background-color: #f9f8e8; 
+  background-color: #606060; 
   border-width: 1px;
   width: 100%;
   box-shadow: 5px 5px 5px #cccccc;
@@ -198,15 +204,15 @@
 
 
 /* Portfolio Square Headings */
-.portfolio-thumbnail h4 { 
-  color: #263ea7;
-  font-size: 28px;
-  font-weight: normal;
+.port-labels h4 { 
+  color: #444336;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
   font-style: normal;
   letter-spacing: .5px;
   text-align: center;
-  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-weight: normal;
+  font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
 
@@ -246,7 +252,7 @@
     /* Main Body (home page AND all other pages) */
 
 body {
-  
+  background-color: #cccccc;
   padding-top: 250px;
   margin-bottom: 120px;
   z-index: 2; 
@@ -255,14 +261,14 @@ body {
     /* page headers */
 h1 {
   font-size: 42px;
-  color: #232791;
+  color: #444336;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
     /* red-name title - resume */
 h2 {
   font-size: 42px;
-  color: #cc6666;
+  color: #444336;
   font-weight: normal;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -272,7 +278,7 @@ h3 {
   font-size: 28px;
   color: #cc6666;
   font-family: Candara, Tahoma, Geneva, sans-serif;
-  background-color: #fff;
+  
 }
 
     /* dark brown headers - resume */
@@ -323,7 +329,7 @@ a:hover {
 
 
 hr {
-  border-color: #263ea7;
+  border-color: #444336;
   border-width: 1px;
 }
 
@@ -341,7 +347,7 @@ hr {
 /*** FOOTER START ***/
 
 .footer {
-  background-image: url("../assets/images/dem5.png");
+  background-image: url("../assets/testing/dem_processing2red_footreverse.jpg");
   position: fixed;
   bottom: 0;
   left: 0;
@@ -350,12 +356,13 @@ hr {
   background-size: cover;
   height:50px;
   padding: 7px;
+  box-shadow: 3px 3px 7px 5px #999999;
 }
 
 
 .footer p {
   float: right;
-  color: #fff;
+  color: #6aaae8;
   font-size: 14px;
   position: relative;
   font-family: Candara, Tahoma, Geneva, sans-serif;
@@ -366,6 +373,7 @@ hr {
 
 
 .footer i{
+  color:#4b5059;
  position: relative;
  text-align: center;
  font-size: 16px;
@@ -387,9 +395,9 @@ hr {
 }
 
 .copyright-fluid {
-  color: #fff;
+  color: #4b5059;
   float: left;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Candara, Tahoma, Geneva, sans-serif;
   position: relative;
   bottom: -12px;
@@ -441,7 +449,7 @@ hr {
 
 /*** RES BODY - ACTING STRANGELY ***/
 .res-body{
-    background-color: #fff;
+    
     float: center;
     margin-top: 0%;
     margin-left: 10%;
@@ -449,12 +457,6 @@ hr {
     margin-bottom: 10%;
 }
 
-
-.h_line { 
-  color: black;
-  height:1px;
-  background: #fff
-}
 
 /***** RESUME ALL END *****/
 
@@ -466,12 +468,7 @@ hr {
 
 /*** MISC START ***/
 
-.contactinfo{
-  padding-left: 50px; 
-  font-size: 36px;
-  font-weight: regular;
-  font-family: Candara, Tahoma, Geneva, sans-serif;
-}
+
 
 
 a.notwhitetext:link {
@@ -494,9 +491,10 @@ a.notwhitetext:hover {
 }
 
 
-.welcome h1{
+.welcome p{
+  color: #4b5059;
   font-family: Candara, Tahoma, Geneva, sans-serif;
-  font-size: 32px;
+  font-size: 22px;
   float: center;
   
 }
