@@ -138,9 +138,10 @@
   left: 0px;
   right: 30px;
   height: 50px;
-  font-weight: normal;
+  
   padding: 1%;
   z-index: 10;
+  text-shadow: 2px 2px 5px #909090;
 }
 
 
@@ -158,11 +159,12 @@
 
 
 .header a:hover {
-  color: #6699cc;
+  color: #303895;
   font-size: 18px;
   border: 1px solid #c1be97;
   background-color: #f9f8e8;
   border-radius: 4px;
+  font-weight: normal;
 }
 
 
@@ -196,7 +198,7 @@
   background-color: #606060; 
   border-width: 1px;
   width: 100%;
-  box-shadow: -6px 6px 12px #282828;
+  box-shadow: 6px 6px 12px #282828;
 }
 
 
@@ -210,6 +212,7 @@
   letter-spacing: .5px;
   text-align: center;
   font-family: Candara, Tahoma, Geneva, sans-serif;
+  text-shadow: 2px 2px 5px #909090;
 }
 
 
@@ -272,7 +275,7 @@ body {
 h1 {
   font-size: 42px;
   color: #303895;
-  text-shadow: -1px 1px 4px #606060;
+  text-shadow: -2px 2px 5px #909090;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -394,7 +397,7 @@ position:relative;
  bottom: -7px;
  padding: 10px 13px;
  top:-10px;
- left: 150px;
+ left: -2%;
 
 }
 
@@ -414,7 +417,7 @@ position:relative;
 }
 
 .copyright-fluid {
-  color: #4b5059;
+  color: #303895;
   float: left;
   font-size: 13px;
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
