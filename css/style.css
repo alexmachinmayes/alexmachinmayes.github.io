@@ -500,16 +500,18 @@ position:relative;
 
 a.notwhitetext:link {
   color: #0000ff;
+  text-shadow: -1.5px 1.5px 3px #9b9b9b;
 }
 
 
 a.notwhitetext:visited {
   color:#0000ff;
+    text-shadow: -1.5px 1.5px 3px #9b9b9b;
 }
 
 
 a.notwhitetext:hover {
-  color:#cc6666;
+  color:#b70000;
 }
 
 
