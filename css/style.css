@@ -76,7 +76,7 @@
   height: 150px;
   padding: 1%;
   z-index: 20;
-  box-shadow: 3px 3px 7px 0px #999999;
+  box-shadow: 3px 3px 7px 0px #f2f2f2;
 }
 
 
@@ -265,7 +265,7 @@
     /* Main Body (home page AND all other pages) */
 
 body {
-  background-color: #cccccc;
+  background-color: #fff;
   padding-top: 250px;
   margin-bottom: 120px;
   z-index: 2; 
@@ -371,7 +371,7 @@ hr {
   background-size: cover;
   height:30px;
   padding: 7px;
-  box-shadow: 3px 3px 7px 5px #999999;
+  box-shadow: 3px 3px 9px 3px #999999;
 }
 
 
