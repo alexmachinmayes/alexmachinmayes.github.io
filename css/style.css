@@ -366,7 +366,7 @@ hr {
   right: 0;
   background-position: center center;
   background-size: cover;
-  height:50px;
+  height:30px;
   padding: 7px;
   box-shadow: 3px 3px 7px 5px #999999;
 }
@@ -386,7 +386,6 @@ hr {
 
 .footer i{
 color:#4b5059;
-
 float:right;
 position:relative;
  font-size: 18px;
@@ -409,7 +408,7 @@ position:relative;
   border: 1px solid #c1be97;
   background-color: #f9f8e8;
   color: #6699cc;
-  bottom: 5px;
+  bottom: 10px;
   z-index: 10;
 
 }
@@ -420,10 +419,14 @@ position:relative;
   font-size: 13px;
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
   position: absolute;
-  bottom: 5px;
-  left: 30px;
-  
+  bottom: 6px;
+  left: 10px;
+}
 
+
+.soc-right {
+  float: right;
+  z-index: 10;
 }
 /*** FOOTER END ***/
 
