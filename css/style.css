@@ -265,7 +265,7 @@
     /* Main Body (home page AND all other pages) */
 
 body {
-  background-color: #fff;
+  background-color: #cccccc;
   padding-top: 250px;
   margin-bottom: 120px;
   z-index: 2; 
