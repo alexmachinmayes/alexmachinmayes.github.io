@@ -275,7 +275,7 @@ body {
 h1 {
   font-size: 42px;
   color: #303895;
-  text-shadow: -2px 2px 5px #909090;
+  text-shadow: 1px 2px 5px #585858;
   font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -408,7 +408,7 @@ position:relative;
   height: 36px;
   border: 1px solid #c1be97;
   background-color: #f9f8e8;
-  color: #6699cc;
+  color: #303895;
   bottom: 10px;
   z-index: 10;
 
