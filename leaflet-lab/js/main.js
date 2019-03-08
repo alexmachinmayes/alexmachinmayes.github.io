@@ -394,7 +394,7 @@ function getCircleValues(map, attribute){
 function updateLegend(map, attribute){
     //create content for legend
     var year = attribute.split("_")[1];
-    var content = "<h7>Min, mean, & max % decrease values for all cities currently displayed (as red markers).<br> values for the year range:<br><b>2010-" + year + "</b></h7>";
+    var content = "<h7>Dynamic proportional markers show the range of % decreases across the cities in your current map extent. Use the time slider to visualize cumulative decreases since 2010. Current range selected:</h7><br>" + "<h7><b>2010-" + year + "</b></h7>";
         console.log(attribute);
     //replace legend content
     $('#temporal-legend').html(content);
