@@ -1,2 +1,2 @@
 # alexmachinmayes.github.io
-My personal website
+Thanks for looking - this is my first website!

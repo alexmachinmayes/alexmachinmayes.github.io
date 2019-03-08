@@ -1,0 +1,41 @@
+CityName,City,State,PercLossBy_2011,PercLossBy_2012,PercLossBy_2013,PercLossBy_2014,PercLossBy_2015,PercLossBy_2016,PercLossBy_2017,lon,lat
+"Jacksonville, North Carolina",Jacksonville, North Carolina,3.72,2.22,3.13,5.00,4.92,6.95,6.95,-77.430241,34.754052
+"Charleston, West Virginia",Charleston, West Virginia,0.60,0.86,1.25,2.28,3.60,4.89,6.53,-81.633281,38.350600
+"Rocky Mount, North Carolina",Rocky Mount, North Carolina,0.46,1.59,2.32,3.03,4.49,4.71,5.50,-77.795695,35.942383
+"Albany, Georgia",Albany, Georgia,-0.61,-0.14,1.33,1.91,3.22,4.48,5.48,-84.155681,31.578206
+"Flint, Michigan",Flint, Michigan,0.79,1.80,2.55,3.41,4.20,4.94,5.47,-83.723602,43.017177
+"Detroit, Michigan",Detroit, Michigan,0.90,1.64,2.84,4.16,4.61,5.00,5.34,-83.056737,42.348664
+"Saginaw, Michigan",Saginaw, Michigan,0.71,1.29,2.19,3.14,4.25,4.90,5.27,-83.949036,43.420039
+"Gary, Indiana",Gary, Indiana,0.63,1.27,2.01,2.65,3.67,4.51,5.24,-87.337137,41.602129
+"Decatur, Illinois",Decatur, Illinois,0.26,0.88,1.52,2.52,3.61,4.38,5.21,-88.952415,39.845416
+"Hammond, Indiana",Hammond, Indiana,0.66,1.35,2.13,2.67,3.69,4.32,5.07,-87.500043,41.583366
+"Shreveport, Louisiana",Shreveport, Louisiana,-0.43,-0.48,0.44,1.51,2.11,3.23,4.40,-93.765194,32.522183
+"Erie, Pennsylvania",Erie, Pennsylvania,0.21,0.43,1.19,2.00,2.67,3.41,4.31,-80.085242,42.129066
+"Lawton, Oklahoma",Lawton, Oklahoma,-0.28,-0.34,1.37,1.55,2.46,4.18,4.23,-98.390330,34.608685
+"Rockford, Illinois",Rockford, Illinois,0.69,1.25,1.69,2.48,3.07,3.50,3.99,-89.093966,42.271395
+"Jackson, Mississippi",Jackson, Mississippi,-0.78,-0.60,0.49,1.03,1.71,2.72,3.89,-90.184769,32.299038
+"Toledo, Ohio",Toledo, Ohio,0.59,1.37,1.70,2.26,2.57,2.92,3.66,-83.512728,41.678675
+"Youngs, Ohio",Youngs, Ohio,0.50,1.25,2.15,2.62,3.29,3.81,3.44,-83.206016,38.898684
+"Dearborn, Michigan",Dearborn, Michigan,0.75,1.09,1.96,2.07,2.57,3.09,3.43,-83.176314,42.322260
+"Lakewood, Ohio",Lakewood, Ohio,0.70,1.20,1.55,1.87,2.40,2.94,3.42,-81.798191,41.481993
+"St. Louis, Missouri",St. Louis, Missouri,0.08,0.00,0.25,0.51,0.97,1.95,3.36,-90.197889,38.627273
+"Niagara Falls, New York",Niagara Falls, New York,0.47,0.92,1.29,1.77,2.39,2.90,3.35,-79.030262,43.103093
+"Dearborn Heights, Michigan",Dearborn Heights, Michigan,0.68,1.01,1.85,1.96,2.44,2.90,3.26,-83.273263,42.336982
+"Camden, New Jersey",Camden, New Jersey,-0.38,-0.06,0.37,1.03,1.54,3.24,3.22,-75.119891,39.944840
+"Montgomery, Alabama",Montgomery, Alabama,0.21,0.88,1.65,2.13,2.34,2.70,2.97,-86.300648,32.366966
+"Canton, Ohio",Canton, Ohio,0.34,0.39,0.72,1.08,1.71,2.43,2.96,-81.378444,40.798952
+"Parma, Ohio",Parma, Ohio,0.60,1.02,1.30,1.65,1.81,2.31,2.83,-81.735569,41.382240
+"Taylor, Michigan",Taylor, Michigan,0.61,0.92,1.76,1.60,2.07,2.45,2.70,-83.269651,42.240872
+"Livonia, Michigan",Livonia, Michigan,0.56,0.83,1.57,1.59,2.00,2.43,2.69,-83.352710,42.368370
+"Cleveland, Ohio",Cleveland, Ohio,0.82,1.11,1.12,1.34,1.76,2.15,2.64,-81.693445,41.505161
+"Westland, Michigan",Westland, Michigan,0.58,0.85,1.69,1.74,2.12,2.43,2.62,-83.400532,42.323806
+"Utica, New York",Utica, New York,0.24,0.49,0.72,1.26,1.84,2.40,2.53,-75.232664,43.100903
+"Decatur, Alabama",Decatur, Alabama,-0.13,0.03,0.70,1.06,1.51,2.16,2.52,-87.051507,34.618810
+"Springfield, Ohio",Springfield, Ohio,0.47,0.78,1.14,1.38,1.88,2.76,2.25,-83.808817,39.924227
+"Mobile, Alabama",Mobile, Alabama,0.30,0.41,0.59,0.89,1.21,1.54,2.22,-88.043054,30.694357
+"Muncie, Indiana",Muncie, Indiana,-0.27,0.66,0.72,0.84,1.47,1.81,2.21,-85.386511,40.193668
+"Warwick, Rhode Island",Warwick, Rhode Island,0.74,1.15,1.32,1.11,1.83,1.97,2.07,-71.416111,41.700202
+"Cicero, Illinois",Cicero , Illinois,-0.14,-0.31,-0.35,-0.13,0.44,1.12,2.04,-87.753945,41.845588
+"Berwyn, Illinois",Berwyn, Illinois,-0.15,-0.33,-0.38,-0.17,0.39,1.07,1.99,-87.793668,41.850587
+"Hampton, Virginia",Hampton, Virginia,0.57,0.18,0.03,-0.24,0.76,1.46,1.95,-76.345206,37.030097
+"Battle Creek, Michigan",Battle Creek, Michigan,0.67,0.94,1.14,1.18,1.58,1.79,1.94,-85.182427,42.319255

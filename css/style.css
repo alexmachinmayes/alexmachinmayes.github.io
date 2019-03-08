@@ -1,3 +1,4 @@
+/* Stylesheet by Alex Machin-Mayes, 2018 */
 /***** CUSTOM FONTS FROM COMPUTER START*****/
 @font-face {
     font-family:Copperplate Gothic Light;
@@ -70,7 +71,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-  background-image: url("../assets/testing/dem_processing2red_footreverse.jpg");
+  background-image: url("../assets/images/dem_header.jpg");
   background-position: center center;
   background-size: cover;
   height: 150px;
@@ -362,7 +363,7 @@ hr {
 /*** FOOTER START ***/
 
 .footer {
-  background-image: url("../assets/testing/dem_processing2red_footreverse.jpg");
+  background-image: url("../assets/images/dem_header.jpg");
   position: fixed;
   bottom: 0;
   left: 0;
@@ -528,4 +529,6 @@ a.notwhitetext:hover {
   
 }
 
+
 /*** MISC END ***/
+
