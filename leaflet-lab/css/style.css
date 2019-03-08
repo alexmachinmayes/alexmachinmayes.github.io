@@ -551,10 +551,10 @@ a.notwhitetext:hover {
 
 
 .leaflet-popup-content {
-    margin: 0.2em 2em;
+    margin: 0.5em 1.5em;
     width: auto;
     text-align: center;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 
@@ -573,6 +573,8 @@ a.notwhitetext:hover {
   width: 100%;
   display: inline-block;  
 }
+
+
 
 /* Portfolio Square Location - Map */
 .map-portfolio-thumbnail {
@@ -593,19 +595,19 @@ a.notwhitetext:hover {
 /*Start Prop Circles - Legend */
 #temporal-legend{
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
     
 }
 
 .legend-control-container{
     background-color: rgba(255,255,255, .95);
-    padding: 5px;
+    padding: 1px 5px 0px 5px;
     text-align: center;
     border-radius: 5px;
     border: 2px solid rgb(190,190,190);
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 /*End Prop Circles - Legend */
@@ -619,23 +621,25 @@ a.notwhitetext:hover {
     text-align: center;
     border-radius: 5px;
     border: 2px solid rgb(190,190,190);
-    width: 200px;
+    width: 180px;
     padding: 10px;
     
 }
 
 input.range-slider {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
+
 
 #forward {
     float: right;
-    width: 64px
+    width: 50%;
 }
 
 #reverse {
     float: left;
-    width: 64px
+    width: 50%;
+        
 }
 /*End Slider Container -Legend */
