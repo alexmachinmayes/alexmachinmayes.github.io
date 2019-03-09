@@ -9,20 +9,29 @@
 
     var OSM = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
-                
-	var grayscale = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
-		streets = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr});
+    
+    var Cali =
+    L.tileLayer('https://api.mapbox.com/styles/v1/alexmachinmayes/cjt1huhtg0x0k1eki6774wtpr/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleG1hY2hpbm1heWVzIiwiYSI6ImNqNzcyaW1pdDE2dmcydnNiMXBpYnJkZTcifQ.13fGvINhS3AwegzScvXLAw', {});
+    
+    var Dark =
+    L.tileLayer('https://api.mapbox.com/styles/v1/alexmachinmayes/cjt1jr9ch0yse1fqrzdcvsxaa/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleG1hY2hpbm1heWVzIiwiYSI6ImNqNzcyaW1pdDE2dmcydnNiMXBpYnJkZTcifQ.13fGvINhS3AwegzScvXLAw', {});
+
+
+	var Grayscale = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+		Streets = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr});
 
     var map = L.map('map', {
 		center: [36.5, -82],
 		zoom: 5,
-		layers: [grayscale,OSM,streets]
+		layers: [Grayscale,OSM,Streets,Cali,Dark]
         })
 
 	var baseLayers = {
-        "Streets": streets,
+        "Streets": Streets,
         "OSM": OSM,
-		"Grayscale": grayscale,
+		"Grayscale": Grayscale,
+        "Cali": Cali,
+        "Dark": Dark,
 	    };
 L.control.layers(baseLayers).addTo(map);
 
@@ -177,8 +186,8 @@ console.log(attribute);
         fillColor: "#ad0000",
         color: "#000",
         weight: .5,
-        opacity: .6,
-        fillOpacity: 0.4,
+        opacity: 1,
+        fillOpacity: 0.7,
         
     };
 
@@ -220,6 +229,7 @@ function createPropSymbols(data, map, attributes){
         markers.addLayer(geoJsonLayer);
         //add marker cluster layer to map
         map.addLayer(markers);
+    
 //      .addTo(map);
 };
 
@@ -322,11 +332,10 @@ function createLegend(map, attributes){
         //loop to add each circle and text to svg string
         for (var circle in circles){
         //circle string - updated
-            svg += '<circle class="legend-circle" id="' + circle + '" fill="#AD0000" opacity="0.4" fill-opacity="0.6" stroke="#000000" stroke-width=".5" cx="65"/>';
+            svg += '<circle class="legend-circle" id="' + circle + '" fill="#ad0000" opacity="0.6" fill-opacity="1" stroke="#000000" stroke-width="1" cx="65"/>';
             //text string
             svg += '<text class="text1" id="' + circle + '-text" x="103" y="' + circles[circle] + '"></text>';
-            
-            
+
         };
         //close svg string
         svg += "</svg>";
