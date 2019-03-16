@@ -5,11 +5,17 @@
     var mbAttr = 'Map data &copy; <a     href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        
     mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-    var OSM = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
+
+
+    var OSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
     
+
+
+
     var Cali =
     L.tileLayer('https://api.mapbox.com/styles/v1/alexmachinmayes/cjt1huhtg0x0k1eki6774wtpr/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleG1hY2hpbm1heWVzIiwiYSI6ImNqNzcyaW1pdDE2dmcydnNiMXBpYnJkZTcifQ.13fGvINhS3AwegzScvXLAw', {});
     
@@ -33,6 +39,11 @@
         "Cali": Cali,
         "Dark": Dark,
 	    };
+
+
+
+
+
 L.control.layers(baseLayers).addTo(map);
 
 getData(map);
