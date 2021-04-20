@@ -11,10 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@font-face {
-    font-family: Bellerose;
-      src: url("../assets/amm_fonts/Bellerose(2).ttf") format('truetype');
-}
+
 
 :root {
   --blue: #007bff;
@@ -51,6 +48,11 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bellerose;
+      src: url("../assets/amm_fonts/Bellerose.ttf") format('truetype');
 }
 
 html {
