@@ -52,7 +52,7 @@
 
 @font-face {
     font-family: Bellerose;
-      src: url("../assets/amm_fonts/Bellerose.ttf") format('truetype');
+      src: url("../assets/amm_fonts/Bellerose.ttf") format('svg');
 }
 
 html {
