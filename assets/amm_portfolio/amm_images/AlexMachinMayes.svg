@@ -1,10 +1,6 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710.2 84.22">
   <defs>
     <style>
-        @font-face {
-    font-family: Bellerose;
-      src: url("../../assets/amm_fonts/Bellerose.ttf") format('svg');
-}
       .cls-1 {
         font-size: 72px;
         fill: #fed136;
