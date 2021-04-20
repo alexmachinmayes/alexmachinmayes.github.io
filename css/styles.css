@@ -10506,6 +10506,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .card.py-4.h-100{
     background-color: rgb(85, 88, 91, 0.8);
+    padding-bottom: 5rem;
 /*
     width:300px;
     height: 100%;
@@ -10637,4 +10638,19 @@ img {
 
 #portfolio.page-section.bg-light{
      padding-top: 5rem;
+}
+
+#about.page-section.bg-light{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#contact.page-section{
+/*    min-height: 300px;*/
+/*    margin-bottom: 5rem;*/
+}
+
+section#contact .section-heading {
+  padding-top: 2rem;
+/*    padding-bottom: 5rem;*/
 }
