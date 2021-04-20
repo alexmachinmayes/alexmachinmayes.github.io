@@ -10638,11 +10638,12 @@ img {
 
 #portfolio.page-section.bg-light{
      padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 #about.page-section.bg-light{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #contact.page-section{
