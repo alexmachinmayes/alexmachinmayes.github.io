@@ -55,9 +55,9 @@
     $(window).scroll(navbarCollapse);
     
     
-  $(document).ready(function() {
-      $('.spinner-border').hide();
-  });
+//  $(document).ready(function() {
+//      $('.spinner-border').hide();
+//  });
    
    
 })(jQuery); // End of use strict
