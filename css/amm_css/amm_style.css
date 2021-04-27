@@ -60,19 +60,13 @@
 
 /***** CUSTOM FONTS FROM COMPUTER END*****/
 
-
-
-
-
-
-
 /***** LOGO START*****/
 
 .jumbotron {
   position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   background-image: url("../assets/images/ImhofHeader.png");
   background-position: center center;
   background-size: cover;
@@ -82,39 +76,36 @@
   box-shadow: 3px 3px 7px 0px #f2f2f2;
 }
 
-
-.logo{
+.logo {
   position: absolute;
   bottom: 20px;
   left: 30px;
   width: 80px;
-                /***** Makes .png render much crisper!  *****/
+  /***** Makes .png render much crisper!  *****/
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
- 
 }
 
-
-.brandtext h1{
+.brandtext h1 {
   color: #50964c;
   font-style: normal;
   font-size: 46px;
-  font-family: "Goudy Old Style Bold", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Goudy Old Style Bold", "Palatino Linotype", "Book Antiqua",
+    Palatino, serif;
   position: absolute;
   bottom: 50px;
   left: 113px;
-   text-shadow: -1px 1.5px 1px #333333;
+  text-shadow: -1px 1.5px 1px #333333;
   background-color: transparent;
   text-decoration: none;
 }
 
-
-
-.brandtext p{
+.brandtext p {
   color: #303895;
   font-size: 20px;
-  font-family: "Copperplate Gothic Bold", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Copperplate Gothic Bold", "Palatino Linotype", "Book Antiqua",
+    Palatino, serif;
   position: absolute;
   bottom: 20px;
   left: 115px;
@@ -125,13 +116,6 @@
 
 /***** LOGO END*****/
 
-
-
-
-
-
-
-
 /*** NAVIGATION BAR START ***/
 
 .header {
@@ -141,12 +125,11 @@
   left: 0px;
   right: 30px;
   height: 50px;
-  
+
   padding: 1%;
   z-index: 10;
   text-shadow: 2px 2px 5px #909090;
 }
-
 
 .header a {
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
@@ -156,10 +139,9 @@
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 25px;
 }
-
 
 .header a:hover {
   color: #303895;
@@ -170,26 +152,15 @@
   font-weight: normal;
 }
 
-
 .header-right {
   float: right;
-  
+
   z-index: 10;
 }
 
-
 /*** NAVIGATION BAR END ***/
 
-
-
-
-
-
-
-
-
 /*** PORTFOLIO MAIN PAGE START ***/
-
 
 /* Portfolio Square Locations */
 .portfolio-thumbnail {
@@ -198,44 +169,39 @@
   padding-right: 10px;
   padding-bottom: 10px;
   border-color: #606060;
-  background-color: #606060; 
+  background-color: #606060;
   border-width: 1px;
   width: 100%;
   box-shadow: 6px 6px 12px #282828;
 }
 
-
 /* Portfolio Square Headings */
-.port-labels h4 { 
+.port-labels h4 {
   color: #444336;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   text-align: center;
   font-family: Candara, Tahoma, Geneva, sans-serif;
   text-shadow: 2px 2px 5px #909090;
 }
 
-
 /* Portfolio Square Headings - Hover */
-.port-labels h4:hover { 
+.port-labels h4:hover {
   color: #303895;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   font-style: normal;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   text-align: center;
   font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
-
-
 /* Portfolio Image Within Square */
 .portimage {
-  
   padding-top: 4px;
   padding-left: 4px;
   padding-right: 4px;
@@ -243,8 +209,8 @@
   background-color: #fff;
   border-radius: 4px;
   width: 100%;
-    min-height: 385px;
-    max-height: 385px;
+  min-height: 385px;
+  max-height: 385px;
 }
 
 /* Portfolio Image Within Square - Hover */
@@ -253,75 +219,64 @@
   border-color: #263ea7;
 }
 
-
 /*** PORTFOLIO MAIN PAGE END ***/
-
-
-
-
-
-
-
-
 
 /*** GENERAL START ***/
 
-
-    /* Main Body (home page AND all other pages) */
+/* Main Body (home page AND all other pages) */
 
 body {
   background-color: #cccccc;
   padding-top: 150px;
   margin-bottom: 120px;
-  z-index: 2; 
+  z-index: 2;
 }
 
-    /* page headers */
+/* page headers */
 h1 {
   font-size: 42px;
   color: #303895;
   text-shadow: 1px 2px 5px #585858;
-  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino,
+    serif;
 }
 
-    /* name title - resume */
+/* name title - resume */
 h2 {
   font-size: 42px;
   color: #444336;
   font-weight: normal;
-  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Goudy Old Style", "Palatino Linotype", "Book Antiqua", Palatino,
+    serif;
 }
 
-    /* red-headers - resume */
+/* red-headers - resume */
 h3 {
   font-size: 28px;
   color: #b70000;
   font-family: Candara, Tahoma, Geneva, sans-serif;
-  
 }
 
-    /* dark brown headers - resume */
-h4{
+/* dark brown headers - resume */
+h4 {
   font-size: 20px;
   color: #444336;
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
 }
 
-    /* bold dark brown sub-headers - resume */
-h5{
+/* bold dark brown sub-headers - resume */
+h5 {
   font-size: 18px;
   color: #444336;
   font-style: italic;
   font-family: Candara Bold, Tahoma, Geneva, sans-serif;
 }
 
-
-h6{
+h6 {
   font-size: 18px;
   color: #444336;
   font-family: Candara, Tahoma, Geneva, sans-serif;
 }
-
 
 p {
   font-size: 20px;
@@ -335,17 +290,14 @@ li {
   font-family: Candara, Tahoma, Geneva, sans-serif;
 }
 
-
 a {
-  color: #fff;   
+  color: #fff;
 }
-
 
 a:hover {
   color: #74b4e2;
   text-decoration: none;
 }
-
 
 hr {
   border-color: #444336;
@@ -353,16 +305,7 @@ hr {
   box-shadow: -1px 1px 2px #606060;
 }
 
-
 /*** GENERAL END ***/
-
-
-
-
-
-
-
-
 
 /*** FOOTER START ***/
 
@@ -374,11 +317,10 @@ hr {
   right: 0;
   background-position: center center;
   background-size: cover;
-  height:30px;
+  height: 30px;
   padding: 7px;
   box-shadow: 3px 3px 9px 3px #999999;
 }
-
 
 .footer p {
   float: right;
@@ -391,21 +333,19 @@ hr {
   bottom: 10px;
 }
 
-
-.footer i{
-color:#4b5059;
-float:right;
-position:relative;
- font-size: 18px;
- width: 20px;
- height: 30px;
- bottom: -7px;
- padding: 10px 13px;
- top:-10px;
+.footer i {
+  color: #4b5059;
+  float: right;
+  position: relative;
+  font-size: 18px;
+  width: 20px;
+  height: 30px;
+  bottom: -7px;
+  padding: 10px 13px;
+  top: -10px;
 }
 
-
-.footer i:hover{
+.footer i:hover {
   text-align: center;
   padding: 8px;
   border-radius: 5px;
@@ -416,7 +356,6 @@ position:relative;
   color: #303895;
   bottom: 10px;
   z-index: 10;
-
 }
 
 .copyright-fluid {
@@ -429,32 +368,21 @@ position:relative;
   left: 10px;
 }
 
-
 .soc-right {
   float: right;
   z-index: 10;
 }
 /*** FOOTER END ***/
 
-
-
-
-
-
-
-
-
-
 /***** RESUME ALL START *****/
 
-
-    /*** COLUMNS START ***/
+/*** COLUMNS START ***/
 
 .column {
-    float: left;
-    font-weight: bold; 
-    padding: 0px;
-    height: 75px;
+  float: left;
+  font-weight: bold;
+  padding: 0px;
+  height: 75px;
 }
 
 .left {
@@ -465,74 +393,51 @@ position:relative;
   width: 70%;
 }
 
-
-    /*** Clear floats after the columns ***/
+/*** Clear floats after the columns ***/
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-    /*** COLUMNS END ***/
-
-
-
-
+/*** COLUMNS END ***/
 
 /*** RES BODY - ACTING STRANGELY ***/
-.res-body{
-    
-    float: center;
-    margin-top: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
+.res-body {
+  float: center;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
 }
-
 
 /***** RESUME ALL END *****/
 
-
-
-
-
-
-
 /*** MISC START ***/
-
-
-
 
 a.notwhitetext:link {
   color: #0000ff;
   text-shadow: -1.5px 1.5px 3px #9b9b9b;
 }
 
-
 a.notwhitetext:visited {
-  color:#0000ff;
-    text-shadow: -1.5px 1.5px 3px #9b9b9b;
+  color: #0000ff;
+  text-shadow: -1.5px 1.5px 3px #9b9b9b;
 }
-
 
 a.notwhitetext:hover {
-  color:#b70000;
+  color: #b70000;
 }
 
-
-.about{
+.about {
   float: center;
 }
 
-
-.welcome p{
+.welcome p {
   color: #4b5059;
   font-family: Candara, Tahoma, Geneva, sans-serif;
   font-size: 22px;
   float: center;
-  
 }
 
-
 /*** MISC END ***/
-

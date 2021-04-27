@@ -1,20 +1,20 @@
-.text-center-amm{
-padding-top: 50px;
+.text-center-amm {
+  padding-top: 50px;
 }
 
-.center-block.img-responsive{
-    padding-top: 0px;
+.center-block.img-responsive {
+  padding-top: 0px;
 }
 
 img {
   border: 0;
 }
 img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
+  page-break-inside: avoid;
+}
+img {
+  max-width: 100% !important;
+}
 img {
   vertical-align: middle;
 }
@@ -43,22 +43,18 @@ img {
   height: auto;
 }
 
-#mainNav .navbar-toggler{
-    color: #212529;
+#mainNav .navbar-toggler {
+  color: #212529;
 }
 
-.text-uppercase.m-0{
-    color: white;
+.text-uppercase.m-0 {
+  color: white;
 }
 
-#portfolio .portfolio-item{
-    margin-top: 8px;
-    margin-bottom: 8px;
+#portfolio .portfolio-item {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-
-
-
-
 
 /* start africa inner modal styling */
 #portfolio .portfolio-item-inner {
@@ -82,7 +78,11 @@ img {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item-inner .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio
+  .portfolio-item-inner
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   font-size: 1.25rem;
   color: #212529;
 }
@@ -90,7 +90,7 @@ img {
   opacity: 1;
 }
 
-#portfolio.page-section.bg-light-inner{
+#portfolio.page-section.bg-light-inner {
   padding-top: 1rem;
   padding-bottom: 1rem;
   flex: 0 0 100%;
@@ -103,10 +103,10 @@ img {
 
 /* end africa inner modal styling */
 
-.svg-inline--fa.fa-connectdevelop.fa-w-18.fa-2x{
-    color: #212529;
+.svg-inline--fa.fa-connectdevelop.fa-w-18.fa-2x {
+  color: #212529;
 }
 
-.svg-inline--fa.fa-chevron-circle-left{
-    color: #212529;
+.svg-inline--fa.fa-chevron-circle-left {
+  color: #212529;
 }
