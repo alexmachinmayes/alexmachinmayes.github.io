@@ -110,3 +110,10 @@ img {
 .svg-inline--fa.fa-chevron-circle-left {
   color: #212529;
 }
+
+#mainNav.navbar-shrink .navbar-brand svg, #mainNav.navbar-shrink .navbar-brand img{
+    height:1.75rem;
+}
+#mainNav .navbar-brand img{
+    height:2.25rem;
+}
