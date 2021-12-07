@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 561.66 561.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fed136;
+      }
+
+      .cls-2 {
+        font-size: 291.26px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #212529;
+        font-family: Bellerose;
+      }
+
+      .cls-3 {
+        font-size: 281.26px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle class="cls-1" cx="280.83" cy="280.83" r="279.83"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-2" transform="translate(27.87 378.73) scale(1.65 1)">A</text>
+    <text class="cls-3" transform="translate(266.1 378.73) scale(1.48 1)">M</text>
+  </g>
+</svg>
