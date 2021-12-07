@@ -10551,7 +10551,7 @@ img::-moz-selection {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+    padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background: 
@@ -11096,12 +11096,12 @@ img {
 
 #portfolio.page-section.bg-light {
   padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
 }
 
 #about.page-section.bg-light {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #contact.page-section {
