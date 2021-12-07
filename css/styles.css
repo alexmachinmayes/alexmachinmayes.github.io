@@ -11104,3 +11104,7 @@ section#contact .section-heading {
   padding-top: 2rem;
   /*    padding-bottom: 5rem;*/
 }
+
+.text-black-50.small{
+    font-size: 100%;
+}
