@@ -51,10 +51,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Bellerose;
-  src: url("../assets/amm_fonts/Bellerose.ttf") format("svg");
-}
+
 
 html {
   font-family: sans-serif;
@@ -10408,9 +10405,11 @@ p {
   line-height: 1.75;
 }
 
+/*
 .page-section.contact {
   padding: 5rem;
 }
+*/
 
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10565,34 +10564,29 @@ header.masthead {
 */
       linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.2) 30%,
+          rgba(33, 37, 41, 1) 10%,
+      rgba(250, 250, 250, 0.6) 70%,
       #f8f9fa 100%
     ),
       
-    url("../assets/amm_portfolio/amm_images/SwissHillshade_dark.jpg");
+    url("../assets/amm_portfolio/amm_images/SwissHillshade.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   min-height: 900px;
 }
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: normal;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
+/*
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+*/
 }
 
 @media (min-width: 768px) {
@@ -10608,7 +10602,7 @@ header.masthead .masthead-heading {
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
-    font-weight: 700;
+/*    font-weight: 700;*/
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
@@ -11014,9 +11008,7 @@ img {
   color: #212529;
 }
 
-header.masthead .masthead-heading {
-  font-size: 2rem;
-}
+
 
 .center-block.img-responsive {
   padding-top: 50px;
@@ -11116,4 +11108,44 @@ section#contact .section-heading {
 
 .text-black-50.small{
     font-size: 1rem;
+}
+
+@font-face {
+    font-family:Bellerose;
+      src: url("../../assets/amm_fonts/Bellerose.ttf") format('truetype');
+}
+
+@font-face {
+    font-family:NeutrafaceCondensed-Light;
+      src: url("../../assets/amm_fonts/NeutrafaceCondensed-Light.ttf") format('opentype');
+} 
+
+header.masthead .masthead-heading {
+  
+/*    font-weight: normal;*/
+    font-family:  "NeutrafaceCondensed-Light" !important;
+    color: #FEC810;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 5rem;    
+/*    text-transform:none !important;*/
+/*    letter-spacing: 0.1rem;*/
+/*    word-spacing: -0.2em !important;*/
+/*    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
+}
+
+
+header.masthead .masthead-subheading {
+    color: #212529;
+  font-size: 1.8rem;
+    text-transform: uppercase;
+  font-style: normal;
+    font-weight: bold;
+  line-height: 3rem;
+  margin-bottom: 25px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+/*    text-shadow: -1px 0 #FED136, 0 1px #FED136, 1px 0 #FED136, 0 -1px #FED136;*/
 }
