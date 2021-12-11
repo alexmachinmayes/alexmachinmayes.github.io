@@ -11219,7 +11219,7 @@ section#contact {
   background-repeat:repeat-x;
   background-attachment: scroll;
   background-position: center center;
-  background-size:contain;
+  background-size:cover;
   
 }
 
