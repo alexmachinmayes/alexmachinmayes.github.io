@@ -11251,7 +11251,7 @@ header.masthead .masthead-heading {
 /*    text-transform:none !important;*/
     letter-spacing: 0.2rem;
 /*    word-spacing: -0.2em !important;*/
-    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+    text-shadow: -.5px 0 #212529, 0 .5px #212529, .5px 0 #212529, 0 -.5px #212529;
     animation: moveAlexTitle 2.2s ease-out 1;
     animation: fadeAlexTitle ease 5s;
     animation-iteration-count: 1;
