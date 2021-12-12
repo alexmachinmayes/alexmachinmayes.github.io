@@ -4457,17 +4457,20 @@ input[type="button"].btn-block {
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
-  animation: moveoverinfo 2s linear 1;
+  animation: moveNavbar ease 5s;;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 
-@keyframes moveoverinfo{
-    0%{
-        transform: translateX(-300px);
+@keyframes moveNavbar{
+    0% {
+        opacity: 0;
     }
-    100%{
-        transform: translateX(0px);
-    }
+    100% {
+        opacity: 1;
+     }
 }
+    
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
   }
@@ -11189,7 +11192,7 @@ section#contact {
 
       linear-gradient(
       to bottom,
-          rgba(198, 198, 198, .2) 30%,
+          rgba(198, 198, 198, .2) 50%,
 
       #212529 100%
     ),
@@ -11223,16 +11226,18 @@ section#contact {
 
 .btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger {
   color: #212529;
-    animation: movePortfolioButton 2s linear 1;
+    animation: movePortfolioButton ease 5s;;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 
 @keyframes movePortfolioButton{
-    0%{
-        transform: translateX(-300px);
+    0% {
+        opacity: 0;
     }
-    100%{
-        transform: translateX(0px);
-    }
+    100% {
+        opacity: 1;
+     }
 }
 
 header.masthead .masthead-heading {
@@ -11246,19 +11251,39 @@ header.masthead .masthead-heading {
 /*    text-transform:none !important;*/
     letter-spacing: 0.2rem;
 /*    word-spacing: -0.2em !important;*/
-/*    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
-    animation: moveAlexTitle 2s linear 1;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+    animation: moveAlexTitle 2.2s ease-out 1;
+    animation: fadeAlexTitle ease 5s;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 
-@keyframes moveAlexTitle{
-    0%{
-        transform: translateX(-300px);
+@keyframes fadeAlexTitle{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+    
+     0%{
+        transform: translateY(-300px);
     }
     100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
 }
 
+/*
+@keyframes moveAlexTitle{
+    0%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+*/
 
 header.masthead .masthead-subheading {
     color: #212529;
@@ -11273,9 +11298,21 @@ header.masthead .masthead-subheading {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     
 /*    text-shadow: -1px 0 #FED136, 0 1px #FED136, 1px 0 #FED136, 0 -1px #FED136;*/
-animation: moveSubHeading 2s linear 1;
+animation: moveSubHeading ease 5s;;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 
+@keyframes moveSubHeading{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+/*
 @keyframes moveSubHeading{
     0%{
         transform: translateX(300px);
@@ -11284,6 +11321,7 @@ animation: moveSubHeading 2s linear 1;
         transform: translateX(0px);
     }
 }
+*/
 
 .large.text-gradient-main{
     text-align:left;
@@ -11296,7 +11334,7 @@ animation: moveSubHeading 2s linear 1;
     background: -webkit-linear-gradient(white, #E7E7E7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-animation: moveoverinfo 2s linear 1;
+animation: moveoverinfo 2s ease-out 1;
 }
 
 @keyframes moveoverinfo{
