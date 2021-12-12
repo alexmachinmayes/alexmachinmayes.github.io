@@ -11138,7 +11138,7 @@ header.masthead .masthead-heading {
     font-family:  "NeutrafaceCondensed-Light" !important;
     color: #FEC810;
 /*    font-style: normal !important;*/
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 5rem;    
 /*    text-transform:none !important;*/
     letter-spacing: 0.2rem;
@@ -11189,7 +11189,7 @@ header.masthead .masthead-subheading {
           rgba(250, 250, 250, 0) 15%,
 /*                    rgba(33, 37, 41, .01) 95%,*/
 
-      #212529 100%
+      #424548 100%
     ),
       
     url("../assets/amm_portfolio/amm_images/hazyMountains.png");
@@ -11210,13 +11210,22 @@ section#contact {
 
       linear-gradient(
       to bottom,
-                    rgba(33, 37, 41, .2) 90%,
+/*                    rgba(33, 37, 41, .4) 15%,*/
+          rgba(198, 198, 198, .2) 25%,
 
       #212529 100%
     ),
-      
+        
+      linear-gradient(
+      to top,
+                    rgba(33, 37, 41, .2) 25%,
+/*          rgba(33, 37, 41, .3) 15%,*/
+
+      #212529 100%
+    ),
+        
     url("../assets/amm_portfolio/amm_images/map-image2.png");
-  background-repeat:repeat-x;
+  background-repeat:space;
   background-attachment: scroll;
   background-position: center center;
   background-size:cover;
