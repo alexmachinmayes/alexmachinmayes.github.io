@@ -1,7 +1,7 @@
 .bird-cage{
-    width: 1900px;
-    max-height: 10px;
-    position:absolute;
+/*    width: 1900px;*/
+/*    max-height: 10px;*/
+/*    position:absolute;*/
 }
 
 
@@ -44,7 +44,7 @@
           animation-delay: -0.5s;
 }
 
-.bird-container {
+.bird-div {
   position:absolute;
   top: 20%;
   left: -10%;
@@ -59,25 +59,25 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-.bird-container--one {
+.bird-div--one {
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
 }
-.bird-container--two {
+.bird-div--two {
   -webkit-animation-duration: 16s;
           animation-duration: 16s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
-.bird-container--three {
+.bird-div--three {
   -webkit-animation-duration: 14.6s;
           animation-duration: 14.6s;
   -webkit-animation-delay: 9.5s;
           animation-delay: 9.5s;
 }
-.bird-container--four {
+.bird-div--four {
   -webkit-animation-duration: 16s;
           animation-duration: 16s;
   -webkit-animation-delay: 10.25s;
