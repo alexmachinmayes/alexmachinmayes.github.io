@@ -11253,18 +11253,22 @@ header.masthead .masthead-heading {
 /*    word-spacing: -0.2em !important;*/
     text-shadow: -.5px 0 #212529, 0 .5px #212529, .5px 0 #212529, 0 -.5px #212529;
 /*    animation: moveAlexTitle 1s ease-out 1;*/
-    animation: fadeAlexTitle ease 3s;
+    animation: fadeAlexTitle ease 2.5s;
+/*
     animation-iteration-count: 1;
             animation-fill-mode: forwards;
+*/
 }
 
 @keyframes fadeAlexTitle{
+/*
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
      }
+*/
     
      0%{
         transform: translateY(-300px);
