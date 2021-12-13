@@ -10589,7 +10589,7 @@ header.masthead {
       #f8f9fa 100%
     ),
       
-    url("../assets/amm_portfolio/amm_images/SwissHillshade.jpg");
+    url("../assets/amm_portfolio/amm_images/london_painterly.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10611,7 +10611,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 16rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
@@ -11192,19 +11192,19 @@ section#contact {
 
       linear-gradient(
       to bottom,
-          rgba(198, 198, 198, .2) 50%,
+          rgba(198, 198, 198, .2) 80%,
 
       #212529 100%
     ),
         
       linear-gradient(
       to top,
-                    rgba(33, 37, 41, .2) 30%,
+                    rgba(33, 37, 41, .2) 50%,
 
       #212529 100%
     ),
         
-    url("../assets/amm_portfolio/amm_images/map-image2.png");
+    url("../assets/amm_portfolio/amm_images/SwissHillshade_painterly2.png");
   background-repeat:space;
   background-attachment: scroll;
   background-position: center center;
@@ -11343,9 +11343,12 @@ animation: moveoverinfo 3s ease-out 1;
 
 @keyframes moveoverinfo{
     0%{
-        transform: translateX(-300px);
+        transform: translateX(300px);
     }
     100%{
         transform: translateX(0px);
     }
 }
+
+
+
