@@ -11117,7 +11117,7 @@ img {
 
 
 #contact.page-section {
-      min-height: 600px;
+      min-height: 550px;
 /*     padding-bottom: 15rem;*/
 }
 
@@ -11338,9 +11338,10 @@ animation: moveSubHeading ease 5s;;
     background: -webkit-linear-gradient(white, #E7E7E7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-animation: moveoverinfo 3s ease-out 1;
+/*animation: moveoverinfo 3s ease-out 1;*/
 }
 
+/*
 @keyframes moveoverinfo{
     0%{
         transform: translateX(300px);
@@ -11349,6 +11350,7 @@ animation: moveoverinfo 3s ease-out 1;
         transform: translateX(0px);
     }
 }
+*/
 
 
 
