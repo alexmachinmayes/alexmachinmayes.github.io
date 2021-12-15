@@ -11754,12 +11754,12 @@ img {
 
 
 #contact.page-section {
-    min-height: 580px;
+    min-height: 575px;
     
 }
 
 section#contact .section-heading {
-    /*  padding-top: 6rem;*/
+      padding-top: 2rem;
     /*    padding-bottom: 5rem;*/
 }
 
