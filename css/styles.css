@@ -11219,11 +11219,11 @@ header.masthead .masthead-heading {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(254, 209, 54, 0.8);
+    background: rgba(254, 209, 54, 0.7);
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity ease-in-out 0.25s;
+    transition: opacity ease-in-out 1.2s;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -11747,15 +11747,15 @@ img {
 
 #portfolio.page-section.bg-light {
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 
 
 
 
 #contact.page-section {
-    min-height: 550px;
-    /*     padding-bottom: 15rem;*/
+    min-height: 580px;
+    
 }
 
 section#contact .section-heading {
