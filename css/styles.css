@@ -11143,7 +11143,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-    padding-top: 11rem;
+    padding-top: 11.5rem;
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
@@ -11711,7 +11711,7 @@ img {
 }
 
 .masthead-heading.text-uppercase {
-    margin-bottom: 10px !important;
+/*    margin-bottom: 10px !important;*/
 }
 
 .masthead-subheading {
