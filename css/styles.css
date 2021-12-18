@@ -4741,7 +4741,7 @@ input[type="button"].btn-block {
 
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
-        animation: moveNavbar 5s;
+        animation: moveNavbar 10s;
         ;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
@@ -11065,6 +11065,20 @@ img::-moz-selection {
     text-transform: uppercase;
     background-color: #fed136;
     border: 0;
+    animation: fadeToggler ease 10s;
+    ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeToggler {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #mainNav .navbar-brand {
@@ -11754,14 +11768,16 @@ img {
 
 
 #contact.page-section {
-    min-height: 575px;
+    min-height: 700px;
     
 }
 
+/*
 section#contact .section-heading {
       padding-top: 2rem;
-    /*    padding-bottom: 5rem;*/
+        padding-bottom: 5rem;
 }
+*/
 
 .text-black-50.small {
     font-size: 1rem;
@@ -11857,7 +11873,7 @@ section#contact {
 
 .btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger {
     color: #212529;
-    animation: movePortfolioButton 7s;
+    animation: movePortfolioButton 10s;
     ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -11937,7 +11953,7 @@ header.masthead .masthead-subheading {
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
     /*    text-shadow: -1px 0 #FED136, 0 1px #FED136, 1px 0 #FED136, 0 -1px #FED136;*/
-    animation: moveSubHeading ease 5s;
+    animation: moveSubHeading ease 10s;
     ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -11988,3 +12004,11 @@ header.masthead .masthead-subheading {
     }
 }
 */
+
+/*
+.navbar-brand.js-scroll-trigger{
+    color: #fed136 !important;
+    font-family: NeutrafaceCondensed-Light !important;
+    font-size: 1.8rem;
+    font-style: normal;
+}*/
