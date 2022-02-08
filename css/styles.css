@@ -4741,7 +4741,7 @@ input[type="button"].btn-block {
 
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
-        animation: moveNavbar 10s;
+        animation: moveNavbar 8s;
         ;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
@@ -11065,7 +11065,7 @@ img::-moz-selection {
     text-transform: uppercase;
     background-color: #fed136;
     border: 0;
-    animation: fadeToggler ease 10s;
+    animation: fadeToggler ease 8s;
     ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -11875,7 +11875,7 @@ section#contact {
 
 .btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger {
     color: #212529;
-    animation: movePortfolioButton 10s;
+    animation: movePortfolioButton 8s;
     ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -11955,7 +11955,7 @@ header.masthead .masthead-subheading {
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
     /*    text-shadow: -1px 0 #FED136, 0 1px #FED136, 1px 0 #FED136, 0 -1px #FED136;*/
-    animation: moveSubHeading ease 10s;
+    animation: moveSubHeading ease 8s;
     ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
